@@ -1,0 +1,32 @@
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# Logs and generated data
+*.log
+logs/
+data/
+grafana/data/
+loki/data/
+
+# Local and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+
+# Local backups
+*.bak
+*.backup
+*.tar
+*.tar.gz
